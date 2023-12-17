@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://fem-notifications.netlify.app/]([https://your-live-site-url.com](https://fem-notifications.netlify.app/)
+- Live Site URL: [https://fem-notifications.netlify.app/](https://fem-notifications.netlify.app/)
 
 ### Built with
 
