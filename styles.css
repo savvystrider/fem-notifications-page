@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f9fafe;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 3rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+.total-notifications {
+  background-color: #0b3379;
+  color: white;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: hsl(224, 21%, 14%);
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  color: hsl(219, 14%, 63%);
+}
+
+.post-title {
+  color: #565d65;
+  font-weight: bold;
+}
+
+.time {
+  color: #a4a8b3;
+  font-size: 0.875rem;
+}
+
+.message {
+  border: 1px solid #e9ecee;
+  padding: 1em;
+  border-radius: 0.25em;
+}
+
+.notifications-container {
+  max-width: 80%;
+  margin: 1em auto;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.18);
+}
+
+@media screen and (min-width: 1000px) {
+  .notifications-container {
+    max-width: 30%;
+  }
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em 1.5em;
+  margin-block: 0.5em;
+  cursor: pointer;
+}
+
+.notification:nth-of-type(5) {
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.notification:hover,
+.notification:focus {
+  background-color: #f6fafd66;
+}
+
+.notification.unread {
+  background-color: #f6fafd;
+  border-radius: 1em;
+}
+
+.notification-text {
+  position: relative;
+  color: #65686f;
+  padding-right: 0.5em;
+}
+
+.notification.unread .notification-text::after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  right: -0.75em;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: hsl(1, 90%, 64%);
+}
