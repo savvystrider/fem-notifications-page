@@ -35,10 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [https://fem-notifications.netlify.app/]([https://your-live-site-url.com](https://fem-notifications.netlify.app/))
 
 ### Built with
 
@@ -47,7 +44,7 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla JavaScript
 
-## Author
+### Author
 
 - Website - [Manish Patel](https://manishpatel.tech)
 - Frontend Mentor - [@savvystrider](https://www.frontendmentor.io/profile/savvystrider)
